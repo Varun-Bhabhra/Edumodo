@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Myriad";
+  src: url(../font/myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff);
+}
+
+* {
+  font-family: "Myriad";
+}
+
+@media (min-width: 768px) {
+  #bars {
+    display: none;
+  }
+
+  #bannerPhone {
+    display: none;
+  }
+}
